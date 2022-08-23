@@ -1,0 +1,98 @@
+*{
+  margin: auto;
+}
+
+.bod{
+  
+  margin-top: 100px;
+  padding-top: 100px;
+  width: 900px;
+  height: 500px;
+  background: linear-gradient(to right, blue, purple);
+  border-radius: 10px;
+
+  align-items: center;
+
+}
+.container{
+  
+  width: 700px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+}
+.circle{
+  width: 200px;
+  height:200px;
+  border-radius: 200px;
+  background-color: rgb(236, 230, 230);
+  box-shadow: 0 10px 10px 0;
+}
+.ul{
+  margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+input[type=email]{
+  padding-left: 33px;
+  
+}
+input[type=password]{
+  padding-left: 33px;
+  
+}
+.email{
+  width: 170px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(236, 230, 230) ;
+  margin-bottom: 10px;
+}
+.email-icon{
+  width: 18px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.padlock{
+  width: 18px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.password{
+  width: 170px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(236, 230, 230) ;
+  margin-bottom: 20px;
+}
+.btn{
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(9, 180, 9);
+  color: white;
+  margin-bottom: 15px;
+}
+.fp{
+  font-size: 12px;
+  text-align: center;
+  color: rgb(80, 77, 77);
+
+  
+}
+.fp a{
+text-decoration: none;
+}
+.avatar{
+  width: 200px;
+}
+.error{
+  color: red;
+}
