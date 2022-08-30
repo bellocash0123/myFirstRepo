@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+    width: 100px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;}
+
+    .circle{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        background-color: grey;
+    }
+    
+    .color-red{
+        background-color: red;
+    }
+    .color-yellow{
+        background-color: yellow;
+    }
+    .color-green{
+        background-color: green;
+    }
+    .controls{
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn{
+        width: 50px;
+        height: 25px;
+    }

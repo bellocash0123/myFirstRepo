@@ -1,0 +1,35 @@
+
+
+
+body
+{
+    background-image:url("image5.jpeg.jpg"); background-repeat: no-repeat; background-size: cover;
+}
+
+.link
+{
+
+    margin: 30px;
+    border: solid; height: 30px; width: 800px; color: white;
+    background-color: brown;
+}
+h1{color: red; padding: 40px; font-size: 40px;}
+h2{color: blue; padding:auto; font-family:cursive; font-size:28px;}
+
+h3
+{
+    outline:auto;
+    margin: auto;
+    border: solid; height: 40px; width: 200px; color: red;
+    background-color: black;
+    font-size: 26px; font-style: normal; 
+    
+
+}
+
+h4{
+    outline-color:white ;
+    font-size: 32px; color:black;
+    border:solid; height:45px; width: 500px; color:blue; background-color:black;
+    margin:auto;
+}
