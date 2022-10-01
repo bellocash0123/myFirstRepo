@@ -1,0 +1,95 @@
+body
+{
+    background-image:url("image2.jpeg.jpg"); background-repeat: no-repeat; background-size: cover;
+
+}
+.another{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    
+}
+.book{
+    background-color: yellow;
+    border: none;
+    border-radius: 7px;
+    margin: 30px;
+    padding: 8px;
+      
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+}
+.link a:hover{
+    background-color: green;
+    padding: 5px;
+}
+.link ul {
+    display: inline-flex;
+    list-style: none;
+}
+.link ul li{
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.home{
+    background-color: greenyellow;
+    padding: 8px;
+}
+
+.welcome{
+    color:blue;
+    border: solid;
+    border-color: white ;
+    background-color: white;
+    padding:5px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.note
+{
+    color:black; 
+    padding: 15px;
+    font-size:30px;
+}
+
+.room
+{
+    outline:auto;
+    margin: auto;
+    border: solid; height: 40px; width: 200px; color: blue ;
+    background-color:green;
+    font-size: 26px; font-style: normal;
+}
+.room:hover{
+    background-color: yellow;
+}
+
+.thanks{
+    outline-color:white;
+    font-size: 32px; 
+    color:black; 
+    height:45px;
+    width: 500px; 
+    color:blue;
+    padding: 5px;
+    margin: 15px;
+    background-color:white;
+}
+
+.book:hover{
+    text-align: center;
+    background-color: blue;
+}
+
+.father{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
