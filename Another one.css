@@ -1,0 +1,123 @@
+body{
+text-align: center;
+margin: auto;
+}
+.form-container{
+    border: 1px solid rgb(143,129,129);
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 10px;
+    background-color: rgb(86, 88, 88);
+}
+
+form label{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: -18px;
+    color: blue ;
+    font-family: 'Courier New';
+
+}
+
+form input[type="text"] {
+    width: 25%;
+    padding: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+form input[type="tel"]{
+    width: 25%;
+    padding: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+form input[type="email"]{
+    width: 25%;
+    padding: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+form input[type="password"]{
+    width: 25%;
+    padding: auto;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+input[type="button"]{
+    width: 25%;
+    margin:2px;
+    padding: auto;
+    color: white;
+    background-color: dodgerblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+input[type="button"]{
+    width: 25%;
+    margin: px;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+form input[type='button']{
+    width: 25%;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    text-align: center;
+}
+.btn{
+    width: 25%;
+    height: fit-content;
+    border: solid;
+    border-radius: 7px;
+    height: 25px;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.name{
+    border-color: black;
+    color: black;
+    width: 25%;
+    height: 25px;
+    border: solid;
+    border-radius: 7px;
+}
+.login{
+    width: 25%;
+    height: fit-content;
+    text-decoration: none;
+    border: solid;
+    border-radius: 7px;
+    height: 25px
+}
